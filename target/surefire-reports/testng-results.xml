@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T06:22:29 IST" name="Suite" finished-at="2023-03-03T06:23:11 IST" duration-ms="42642">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.errorMessageValidation()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" name="errorMessageValidation" class="testNgDemo.SeleniumFrameWorkDesign.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="StandAlnoeTest.submitOrder(java.util.HashMap)[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" name="submitOrder" class="testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-03-03T06:22:29 IST" name="ErrorValidation" finished-at="2023-03-03T06:22:48 IST" duration-ms="19646">
+      <class name="testNgDemo.SeleniumFrameWorkDesign.ErrorValidations">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" started-at="2023-03-03T06:22:29 IST" name="lunchApplication" finished-at="2023-03-03T06:22:37 IST" duration-ms="7794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="errorMessageValidation()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" started-at="2023-03-03T06:22:37 IST" name="errorMessageValidation" finished-at="2023-03-03T06:22:37 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessageValidation -->
+        <test-method is-config="true" signature="tearsDown()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" started-at="2023-03-03T06:22:37 IST" name="tearsDown" finished-at="2023-03-03T06:22:38 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" started-at="2023-03-03T06:22:38 IST" name="lunchApplication" finished-at="2023-03-03T06:22:40 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="itemsValidations()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" started-at="2023-03-03T06:22:40 IST" name="itemsValidations" finished-at="2023-03-03T06:22:48 IST" duration-ms="8194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsValidations -->
+        <test-method is-config="true" signature="tearsDown()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.ErrorValidations@446a1e84]" started-at="2023-03-03T06:22:48 IST" name="tearsDown" finished-at="2023-03-03T06:22:48 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- testNgDemo.SeleniumFrameWorkDesign.ErrorValidations -->
+    </test> <!-- ErrorValidation -->
+    <test started-at="2023-03-03T06:22:29 IST" name="CartProductValidation" finished-at="2023-03-03T06:23:11 IST" duration-ms="42642">
+      <class name="testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:22:29 IST" name="lunchApplication" finished-at="2023-03-03T06:22:36 IST" duration-ms="6752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:22:36 IST" name="submitOrder" data-provider="getData" finished-at="2023-03-03T06:22:51 IST" duration-ms="14591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Reptime1!, email=tokat19562@v2ssr.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearsDown()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:22:51 IST" name="tearsDown" finished-at="2023-03-03T06:22:51 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:22:51 IST" name="lunchApplication" finished-at="2023-03-03T06:22:53 IST" duration-ms="1996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:22:53 IST" name="submitOrder" data-provider="getData" finished-at="2023-03-03T06:23:07 IST" duration-ms="14405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearsDown()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:23:07 IST" name="tearsDown" finished-at="2023-03-03T06:23:07 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:23:07 IST" name="lunchApplication" finished-at="2023-03-03T06:23:10 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:23:10 IST" name="orderHistoryTest" finished-at="2023-03-03T06:23:11 IST" depends-on-methods="testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest.submitOrder" duration-ms="740" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67628deb284df9ab1671efa42d57d5f2, findElements {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Pratham\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58173/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67628deb284df9ab1671efa42d57d5f2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67628deb284df9ab1671efa42d57d5f2, findElements {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Pratham\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58173/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67628deb284df9ab1671efa42d57d5f2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:87)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:37)
+at jdk.proxy2/jdk.proxy2.$Proxy17.stream(Unknown Source)
+at testNgDemo.pageobjects.OrderPage.veryifyOrderDisaplyed(OrderPage.java:26)
+at testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest.orderHistoryTest(StandAlnoeTest.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearsDown()[pri:0, instance:testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest@533bda92]" started-at="2023-03-03T06:23:11 IST" name="tearsDown" finished-at="2023-03-03T06:23:11 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- testNgDemo.SeleniumFrameWorkDesign.StandAlnoeTest -->
+    </test> <!-- CartProductValidation -->
+  </suite> <!-- Suite -->
+</testng-results>
