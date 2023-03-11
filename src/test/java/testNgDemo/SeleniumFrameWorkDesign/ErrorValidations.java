@@ -24,6 +24,7 @@ public class ErrorValidations extends BaseTest {
 	public void itemsValidations() throws InterruptedException {
 		
 		String productName = "ZARA COAT 3";
+		System.out.println(productName);
 		PoductCataloge productCatalogs =  landingPage.loginApplication("tokat19562@v2ssr.com", "Reptime1!");
 
 		List<WebElement> products = productCatalogs.getProductsList();
